@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghalaya Catering Service | Premium Catering in Shillong</title>
+  <meta name="description" content="Premium catering for weddings, birthdays, corporate events and parties in Shillong, Meghalaya." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS - Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========================
+       NAVBAR
+  ======================== -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-brand" aria-label="Home">
+        <div class="nav-brand-icon"><i class="fa-solid fa-utensils"></i></div>
+        <div class="nav-brand-text">
+          <!-- filled by main.js -->
+        </div>
+      </a>
+      <div class="nav-links">
+        <!-- filled by main.js -->
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-drawer" id="navDrawer">
+    <!-- filled by main.js -->
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <!-- ========================
+       HERO
+  ======================== -->
+  <section id="hero">
+    <div class="swiper swiper-hero">
+      <div class="swiper-wrapper">
+        <!-- slides filled by main.js -->
+      </div>
+      <div class="swiper-hero-pagination swiper-pagination"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-inner">
+        <div class="hero-eyebrow"></div>
+        <h1 class="hero-title"></h1>
+        <p class="hero-sub"></p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn-gold">
+            <i class="fa-regular fa-calendar-check"></i> Book Your Event
+          </a>
+          <a href="#services" class="btn-outline">
+            <i class="fa-solid fa-chevron-right" style="font-size:0.7rem"></i> Explore Services
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========================
+       ABOUT
+  ======================== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap" data-aos="fade-right" data-aos-duration="900">
+          <!-- filled by main.js -->
+        </div>
+        <div class="about-content" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+          <!-- filled by main.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SERVICES
+  ======================== -->
+  <section id="services">
+    <div class="container">
+      <div class="services-header" data-aos="fade-up">
+        <!-- filled by main.js -->
+      </div>
+    </div>
+    <div class="container" style="max-width:100%; padding:0;">
+      <div class="services-grid">
+        <!-- filled by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       MENU / SPECIALTIES
+  ======================== -->
+  <section id="menu">
+    <div class="container">
+      <div class="menu-header">
+        <div data-aos="fade-right">
+          <div class="section-label"></div>
+          <h2 class="section-title"></h2>
+        </div>
+        <div class="menu-tabs" data-aos="fade-left">
+          <!-- tabs filled by main.js -->
+        </div>
+      </div>
+      <!-- menu panels appended by main.js -->
+    </div>
+  </section>
+
+  <!-- ========================
+       CONTACT
+  ======================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info" data-aos="fade-right" data-aos-duration="900">
+          <!-- filled by main.js -->
+        </div>
+
+        <div class="contact-form-wrap" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+          <div class="form-title">Book Your <span>Event</span></div>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="fname">Full Name</label>
+                <input type="text" id="fname" name="name" class="form-control" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fphone">Phone Number</label>
+                <input type="tel" id="fphone" name="phone" class="form-control" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="feventtype">Event Type</label>
+                <select id="feventtype" name="eventtype" class="form-control" required>
+                  <!-- options filled by main.js -->
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fdate">Event Date</label>
+                <input type="date" id="fdate" name="date" class="form-control" required />
+              </div>
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="fmessage">Your Message</label>
+              <textarea id="fmessage" name="message" class="form-control" placeholder="Tell us about your event, guest count, special requests..."></textarea>
+            </div>
+            <button type="submit" class="btn-gold form-submit">
+              <i class="fa-regular fa-paper-plane"></i> Send Enquiry
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map -->
+      <div class="map-wrap" data-aos="fade-up" data-aos-delay="200">
+        <iframe
+          src=""
+          width="100%"
+          height="380"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Shillong, Meghalaya Map">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       FOOTER
+  ======================== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <div class="footer-brand-icon"><i class="fa-solid fa-utensils"></i></div>
+          <div class="footer-brand-name"></div>
+          <div class="footer-brand-tagline"></div>
+          <p class="footer-desc"></p>
+          <div class="contact-socials">
+            <!-- filled by main.js -->
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links footer-nav-links">
+            <!-- filled by main.js -->
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links footer-svc-links">
+            <!-- filled by main.js -->
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Contact Us</div>
+          <div class="footer-contact-col">
+            <!-- filled by main.js -->
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy"></p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================
+       FLOATING WHATSAPP
+  ======================== -->
+  <a href="#"
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener"
+     aria-label="Chat on WhatsApp">
+    <span class="wa-tooltip">Chat with us</span>
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ========================
+       SCRIPTS
+  ======================== -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Site data (edit this to update content) -->
+  <script src="js/data.js"></script>
+  <!-- Site logic (renders data + wires UI) -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
