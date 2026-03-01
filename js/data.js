@@ -135,14 +135,14 @@ const MENU = {
           tag:  'Rice Specialty',
           name: 'Veg Jadoh',
           desc: 'Fragrant Khasi rice cooked with fresh seasonal vegetables and aromatic spices \u2014 a wholesome delight of the Hills.',
-          img:  'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=85&fit=crop',
+          img:  'https://images.unsplash.com/photo-1516684732162-798a0062be99?w=600&q=85&fit=crop',
           alt:  'Veg Jadoh',
         },
         {
           tag:  'Traditional Staple',
           name: 'Pumaloi',
           desc: 'Steamed pounded rice, a revered Khasi delicacy served at festivals and celebrations with chutneys and sides.',
-          img:  'https://images.unsplash.com/photo-1536304993881-ff86e0c9c1c7?w=600&q=85&fit=crop',
+          img:  'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=85&fit=crop',
           alt:  'Pumaloi',
         },
         {
